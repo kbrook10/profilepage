@@ -1,0 +1,14 @@
+{
+  "name": "profilepage",
+  "version": "1.0.0",
+  "description": "Profile Page - Keith Brooks",
+  "main": "app/app.js",
+  "scripts": {
+    "start": "node app/app.js"
+  },
+  "author": "Keith Brooks",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
