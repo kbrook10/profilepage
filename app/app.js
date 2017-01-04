@@ -12,7 +12,7 @@ app.set('port', process.env.PORT || 3000);
 //<------------------------------------------------------------------->
 app.get('/', function(req, res) {
     res.send(`
-        <h1>Welcome to my Profile Page - Keith Brooks</h1>
+        <h1>Welcome to Profile Page - Keith Brooks</h1>
         `);
 });
 
