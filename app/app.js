@@ -10,36 +10,12 @@ app.set('port', process.env.PORT || 3000);
 
 //<------------------ Create Application Routes ---------------------->
 //<------------------------------------------------------------------->
+app.use(require('./routes/index'));
+app.use(require('./routes/resume'));
+app.use(require('./routes/contact'));
 
-//Root Route
-app.get('/', function(req, res) {
-    res.send(`
-        <h1>Welcome to Home Page</h1>
-        <p>This page will provide a glimpse of who I am</p>
-        `);
-});
 
-//Blog Route --> This does not work...Need to just create a tag and link to new tab...
-// app.get('/blog', function(req, res) {
-//     res.send(`https://medium.com/@kbrook10
-//         `);
-// });
-
-//Resume Route
-app.get('/resume', function(req, res) {
-    res.send(`
-        <h1>Welcome to Resume Page</h1>
-        <p>This page will provide details of my work experience</p>
-        `);
-});
-
-//Contact Route
-app.get('/contact', function(req, res) {
-    res.send(`
-        <h1>Welcome to Contact Page</h1>
-        <p>This page will provide how to get in touch with me</p>
-        `);
-});
+//Blog Route --> Need to just create a tag and link to new tab...https://medium.com/@kbrook10
 
 //<-----------------Server to Listen in on Connections---------------->
 //<------------------------------------------------------------------->
