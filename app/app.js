@@ -8,6 +8,11 @@ var app = express();
 //Create flexible port value depending on environment and set default to 3000....
 app.set('port', process.env.PORT || 3000);
 
+//<------------------ Create Public Folder for App ------------------->
+//<------------------------------------------------------------------->
+//This allows the application to store css, img and js files that can be accessed throughout the application...
+app.use(express.static('app/public'));
+
 //<------------------ Create Application Routes ---------------------->
 //<------------------------------------------------------------------->
 app.use(require('./routes/index'));
