@@ -8,15 +8,14 @@ var app = express();
 //Create flexible port value depending on environment and set default to 3000....
 app.set('port', process.env.PORT || 3000);
 
-//<------------------ Create Index Route ----------------------------->
+//<------------------ Create Application Routes ---------------------->
 //<------------------------------------------------------------------->
-app.get('/', function(req, res) {
-    res.send(`
-        <h1>Welcome to the Profile Page - Keith Brooks</h1>
-        <p>Why is this not working</p>
-        `);
-});
+app.use(require('./routes/index'));
+app.use(require('./routes/resume'));
+app.use(require('./routes/contact'));
 
+
+//Blog Route --> Need to just create a tag and link to new tab...https://medium.com/@kbrook10
 
 //<-----------------Server to Listen in on Connections---------------->
 //<------------------------------------------------------------------->
