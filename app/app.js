@@ -4,10 +4,19 @@ var express = require('express');
 var reload = require('reload');
 var app = express();
 
-//<-----------------Server Port Establishment------------------------->
+//<-----------------Save Variables for Global------------------------->
 //<------------------------------------------------------------------->
 //Create flexible port value depending on environment and set default to 3000....
 app.set('port', process.env.PORT || 3000);
+
+//Define the view engine as Embedded JavaScript
+app.set('view engine', 'ejs');
+
+//Define the location of views which allows routes to have access to views
+app.set('views', 'app/views');
+
+//Creates Tab Title to display across entire application...
+app.locals.siteTitle = 'KBrooks Profile';
 
 //<------------------ Create Public Folder for App ------------------->
 //<------------------------------------------------------------------->
