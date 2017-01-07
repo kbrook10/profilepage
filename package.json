@@ -4,7 +4,7 @@
   "description": "Profile Page - Keith Brooks",
   "main": "app/app.js",
   "scripts": {
-    "start": "nodemon -e css,ejs,js,json --watch app"
+    "start": "node app/app.js"
   },
   "author": "Keith Brooks",
   "license": "ISC",

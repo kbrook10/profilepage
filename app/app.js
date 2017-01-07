@@ -1,3 +1,8 @@
+//Development script...
+// "scripts": {
+//   "start": "nodemon -e css,ejs,js,json --watch app"
+// },
+
 //<------------------Import the express library ---------------------->
 //<------------------------------------------------------------------->
 var express = require('express');
