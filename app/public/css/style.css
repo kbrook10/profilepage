@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Oxygen");
 * {
   box-sizing: border-box;
 }
@@ -7,6 +8,56 @@ img {
 }
 
 h1 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Oxygen','Open Sans', sans-serif, helvetica, arial;
   color: red;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#home header nav h2, #home header nav h4, #home header nav h5 {
+  margin: 0;
+  color: #fff;
+}
+
+#home main .jumbotron {
+  height: 40vh;
+  margin-bottom: 0;
+  background: url(../img/misc/featured_image@2x.png) no-repeat 80% 5%;
+  background-size: cover;
+}
+
+#home main section.main h2 {
+  color: #fff;
+}
+
+#home .about {
+  background-color: #c5c5c5;
+  padding: 0;
+}
+
+#home .about h1 {
+  padding: 0;
+  color: #000;
+}
+
+#home .about .about--text {
+  padding: 1em 2em;
+}
+
+#home .about .about--text h3, #home .about .about--text h5 {
+  padding: 10px 0;
+  line-height: 150%;
+  line-weight: lighter;
+  font-family: inherit;
+}
+
+#home .about .about--img {
+  padding: 1em 2em;
+}
+
+#home .about .about--img img {
+  margin: 1.5em auto 2em auto;
 }

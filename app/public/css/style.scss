@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Oxygen');
+
 * {
     box-sizing: border-box;
+    // border: 1px dashed grey;
 }
 
 //Generic styling for the entire application...
@@ -8,12 +11,61 @@ img {
 }
 
 h1 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oxygen','Open Sans', sans-serif, helvetica, arial;
     color: red;
+}
+body {
+    margin: 0;
+    padding: 0;
 }
 
 //Styling for the Home Page...
+#home {
+    //Styling for the navigational bar...
+    header nav {
+        h2, h4, h5 {
+            margin: 0;
+            color: #fff;
+        }
+    }
+    //Styling for the featured image...
+    main .jumbotron {
+        height: 40vh;
+        margin-bottom: 0;
+        background: url(../img/misc/featured_image@2x.png) no-repeat 80% 5%;
+        background-size: cover;
+    }
+    main section.main {
+        h2 {
+            color: #fff;
+        }
+    }
+    //Styling for the About Section...
+    .about {
+        background-color: #c5c5c5;
+        padding: 0;
+        h1 {
+            padding: 0;
+            color: #000;
+        }
+        .about--text {
+            padding: 1em 2em;
+            h3, h5 {
+                padding: 10px 0;
+                line-height: 150%;
+                line-weight: lighter;
+                font-family: inherit;
+            }
+        }
+        .about--img {
+            padding: 1em 2em;
+            img {
+                margin: 1.5em auto 2em auto;          
+            }
+        }
+    }
 
+}
 
 //Styling for the Resume Page...
 
