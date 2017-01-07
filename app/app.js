@@ -1,6 +1,7 @@
 //<------------------Import the express library ---------------------->
 //<------------------------------------------------------------------->
 var express = require('express');
+var reload = require('reload');
 var app = express();
 
 //<-----------------Server Port Establishment------------------------->
@@ -28,3 +29,7 @@ app.use(require('./routes/contact'));
 var server = app.listen(app.get('port'), function() {
     console.log('Listening in on port ' + app.get('port'));
 });
+
+//<----------------- Auto Refresh Server and Browser ----------------->
+//<------------------------------------------------------------------->
+reload(server, app);

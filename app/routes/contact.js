@@ -15,6 +15,7 @@ router.get('/contact', function(req, res) {
         <h1>Welcome to Contact Page</h1>
         <img src='/img/misc/keith_brooks_about_me@2x.png' alt='Image of me during a trip to the UAE' />
         <p>This page will provide how to get in touch with me</p>
+        <script src="/reload/reload.js"></script>      
         `);
 });
 

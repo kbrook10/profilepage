@@ -4,11 +4,12 @@
   "description": "Profile Page - Keith Brooks",
   "main": "app/app.js",
   "scripts": {
-    "start": "node app/app.js"
+    "start": "nodemon -e css,ejs,js,json --watch app"
   },
   "author": "Keith Brooks",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "reload": "^1.1.0"
   }
 }
