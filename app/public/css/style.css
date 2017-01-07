@@ -9,7 +9,6 @@ img {
 
 h1 {
   font-family: 'Oxygen','Open Sans', sans-serif, helvetica, arial;
-  color: red;
 }
 
 body {
@@ -60,4 +59,21 @@ body {
 
 #home .about .about--img img {
   margin: 1.5em auto 2em auto;
+}
+
+#home .portfolio {
+  background-color: #c5c5c5;
+  padding: 1em 2em;
+}
+
+#home .portfolio .thumbnail .img {
+  width: 200px;
+}
+
+#home .portfolio h1 {
+  margin-bottom: 1em;
+}
+
+#home .portfolio .portfolio--skills img {
+  border-radius: 100%;
 }
