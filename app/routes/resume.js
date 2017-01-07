@@ -15,6 +15,7 @@ router.get('/resume', function(req, res) {
         <h1>Welcome to Resume Page</h1>
         <img src='/img/misc/keith_brooks_about_me@2x.png' alt='Image of me during a trip to the UAE' />
         <p>This page will provide details of my work experience</p>
+        <script src="/reload/reload.js"></script>     
         `);
 });
 
