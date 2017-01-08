@@ -2,7 +2,7 @@
 
 * {
     box-sizing: border-box;
-    // border: 1px dashed grey;
+    border: 1px dashed grey;
 }
 
 //Generic styling for the entire application...
@@ -63,6 +63,7 @@ body {
             }
         }
     }
+    //Styling for the Portfolio Section...
     .portfolio {
         background-color: #c5c5c5;
         padding: 1em 2em;
@@ -77,8 +78,22 @@ body {
                 border-radius: 100%;
             }
         }
+        .tech--icon {
+            width: 100px;
+            height: 100px;
+        }
     }
-
+    //Styling for the Footer Section...
+    .footer {
+        background-color: #222222;
+        p {
+            color: #fff;
+        }
+        span > img {
+            width: 2em;
+            height: 2em;
+        }
+    }
 }
 
 //Styling for the Resume Page...
