@@ -2,7 +2,7 @@
 
 * {
     box-sizing: border-box;
-    border: 1px dashed grey;
+    // border: 1px dashed grey;
 }
 
 //Generic styling for the entire application...
@@ -86,6 +86,7 @@ body {
     //Styling for the Footer Section...
     .footer {
         background-color: #222222;
+        padding: 1em 2em;
         p {
             color: #fff;
         }
