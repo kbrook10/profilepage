@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Oxygen");
 * {
   box-sizing: border-box;
+  border: 1px dashed grey;
 }
 
 img {
@@ -76,4 +77,22 @@ body {
 
 #home .portfolio .portfolio--skills img {
   border-radius: 100%;
+}
+
+#home .portfolio .tech--icon {
+  width: 100px;
+  height: 100px;
+}
+
+#home .footer {
+  background-color: #222222;
+}
+
+#home .footer p {
+  color: #fff;
+}
+
+#home .footer span > img {
+  width: 2em;
+  height: 2em;
 }

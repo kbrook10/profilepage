@@ -3,6 +3,11 @@
 //   "start": "nodemon -e css,ejs,js,json --watch app"
 // },
 
+//Production script...
+// "scripts": {
+//   "start": "node app/app.js"
+// },
+
 //<------------------Import the express library ---------------------->
 //<------------------------------------------------------------------->
 var express = require('express');
