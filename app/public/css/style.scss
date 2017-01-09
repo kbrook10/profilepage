@@ -16,17 +16,33 @@ h1 {
 body {
     margin: 0;
     padding: 0;
+    position: relative;
+}
+.homeReturn {
+    color: #000;
+    text-decoration: none;
 }
 
 //Styling for the Home Page...
 #home {
     //Styling for the navigational bar...
+
     header nav {
         h2, h4, h5 {
             margin: 0;
             color: #fff;
         }
     }
+    .navbar {
+        margin: 0px;
+        border-radius: 0px;
+        min-height: 65px;
+    }
+    #example-navbar-collapse {
+        float: right;
+    }
+
+
     //Styling for the featured image...
     main .jumbotron {
         height: 40vh;
