@@ -14,11 +14,27 @@ h1 {
 body {
   margin: 0;
   padding: 0;
+  position: relative;
+}
+
+.homeReturn {
+  color: #000;
+  text-decoration: none;
 }
 
 #home header nav h2, #home header nav h4, #home header nav h5 {
   margin: 0;
   color: #fff;
+}
+
+#home .navbar {
+  margin: 0px;
+  border-radius: 0px;
+  min-height: 65px;
+}
+
+#home #example-navbar-collapse {
+  float: right;
 }
 
 #home main .jumbotron {
